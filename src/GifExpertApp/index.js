@@ -1,0 +1,27 @@
+import React, { useState } from 'react';
+import { AddCategories } from '../components/AddCategories';
+import { GifGrid } from '../components/GifGrid/index';
+
+export default function GifExpertApp() {
+    const [categories, setCategories] = useState(['One Punch']);
+
+
+    return (
+        <>
+            <h2>Gif Expert App</h2>
+            <AddCategories setCategories={setCategories} />
+            <hr />
+
+            <ol>
+                {
+                    categories.map(category => (
+                        <GifGrid
+                            key={category}
+                            category={category}
+                        />
+                    ))
+                }
+            </ol>
+        </ >
+    )
+}

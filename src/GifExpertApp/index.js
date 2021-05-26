@@ -3,12 +3,12 @@ import { AddCategories } from '../components/AddCategories';
 import { GifGrid } from '../components/GifGrid/index';
 
 export default function GifExpertApp() {
-    const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(['The Office']);
 
 
     return (
         <>
-            <h2>Gif Expert App</h2>
+            <h1>GIPHY</h1>
             <AddCategories setCategories={setCategories} />
             <hr />
 

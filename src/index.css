@@ -4,13 +4,41 @@
 
 body {
   padding: 60px;
+  background-color: rgb(0, 0, 0);
 }
-h2 {
+h1 {
+  color: yellowgreen;
+  font-weight: 80%;
+  font-size: 5.5rem;
   text-align: center;
-  font-weight: 40px;
 }
 input {
+  color: gray;
   font-size: 1.2rem;
   width: 100%;
-  color: gray;
+}
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid rgb(194, 251, 8);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.card p {
+  padding: 6px;
+  text-align: center;
+  color: rgb(255, 0, 144);
+}
+.card img {
+  max-height: 100%;
+}
+img {
+  align-content: center;
 }

@@ -1,16 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { GifGridItems } from '../GifGridItems';
-import { getGifs } from '../Helpers/getGifs';
 
 
 export const GifGrid = ({ category }) => {
     const [images, setImages] = useState([]);
-
-    useEffect(() => {
-        getGifs(category)
-            .then(imgs => setImages(imgs))
-    }, [category])
-
 
     return (
         <>

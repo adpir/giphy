@@ -4,19 +4,24 @@
 
 body {
   padding: 60px;
-  background-color: rgb(236, 198, 198);
+  background-color: rgb(57, 11, 113);
 }
 h1 {
-  color: yellowgreen;
+  color: #0afe1f;
   font-weight: 80%;
   font-size: 5.5rem;
   text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 h3 {
-  color: #fff;
+  color: #0afe1f;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 input {
-  color: rgb(233, 85, 85);
+  color: rgb(57, 11, 113);
   font-size: 1.2rem;
   width: 100%;
 }
@@ -28,21 +33,21 @@ input {
 
 .card {
   align-content: center;
-  border: 5px solid rgb(194, 251, 8);
-  border-radius: 20px;
+  border: 5px solid #ffeb0d;
+  border-radius: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
   overflow: hidden;
   padding: 20px;
 }
 .card p {
-  padding: 6px;
+  padding: 4px;
   text-align: center;
-  color: rgb(255, 0, 144);
+  color: #0afe1f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .card img {
-  max-height: 170px;
-}
-img {
+  max-height: 220px;
+  margin-left: 40px 40px 30px;
   align-content: center;
 }

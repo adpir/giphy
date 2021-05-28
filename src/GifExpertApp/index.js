@@ -3,12 +3,12 @@ import { AddCategories } from '../components/AddCategories';
 import { GifGrid } from '../components/GifGrid/index';
 
 export default function GifExpertApp() {
-    const [categories, setCategories] = useState(['giphy']);
+    const [categories, setCategories] = useState(['Fun']);
 
 
     return (
         <>
-            <h1>GIPHY</h1>
+            <h1 className="animate__animated animate__zoomIn">FunGiphy</h1>
             <AddCategories setCategories={setCategories} />
 
             <ol>

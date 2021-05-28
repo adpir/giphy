@@ -34,4 +34,3 @@ export const AddCategories = ({ setCategories }) => {
 AddCategories.propTypes = {
     setCategories: PropTypes.func.isRequired
 }
-//PropTypes.string.isRequired en donde dice string it should be func - pq estamos haciendo una funcion

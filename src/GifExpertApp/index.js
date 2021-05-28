@@ -10,7 +10,6 @@ export default function GifExpertApp() {
         <>
             <h1>GIPHY</h1>
             <AddCategories setCategories={setCategories} />
-            <hr />
 
             <ol>
                 {

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/giphy/static/css/main.67b62139.chunk.css",
-    "main.js": "/giphy/static/js/main.c179a9c2.chunk.js",
-    "main.js.map": "/giphy/static/js/main.c179a9c2.chunk.js.map",
+    "main.css": "/giphy/static/css/main.865422b7.chunk.css",
+    "main.js": "/giphy/static/js/main.8e344be6.chunk.js",
+    "main.js.map": "/giphy/static/js/main.8e344be6.chunk.js.map",
     "runtime-main.js": "/giphy/static/js/runtime-main.5e29e3b3.js",
     "runtime-main.js.map": "/giphy/static/js/runtime-main.5e29e3b3.js.map",
     "static/js/2.1dab9e25.chunk.js": "/giphy/static/js/2.1dab9e25.chunk.js",
     "static/js/2.1dab9e25.chunk.js.map": "/giphy/static/js/2.1dab9e25.chunk.js.map",
     "index.html": "/giphy/index.html",
-    "static/css/main.67b62139.chunk.css.map": "/giphy/static/css/main.67b62139.chunk.css.map",
+    "static/css/main.865422b7.chunk.css.map": "/giphy/static/css/main.865422b7.chunk.css.map",
     "static/js/2.1dab9e25.chunk.js.LICENSE.txt": "/giphy/static/js/2.1dab9e25.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5e29e3b3.js",
     "static/js/2.1dab9e25.chunk.js",
-    "static/css/main.67b62139.chunk.css",
-    "static/js/main.c179a9c2.chunk.js"
+    "static/css/main.865422b7.chunk.css",
+    "static/js/main.8e344be6.chunk.js"
   ]
 }
